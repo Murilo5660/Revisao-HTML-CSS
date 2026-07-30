@@ -1,0 +1,134 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: #d7e7f5;
+    font-family: 'Pippins', sans-serif;
+    color: black;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.8);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #006699;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    color: #0088cc;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0088cc;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #33a6cc;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+ul, ol {
+    margin-bottom: 25px;
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.image-container {
+    width: 100%;
+    margin: 25px 0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px 0;
+    font-size: 0.95rem;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #0088cc;
+    color: white;
+    font-weight: 700;
+}
+
+tr:nth-child(even) {
+    background-color: #8ec4fa;
+}
+
+.link-section {
+    margin-top: 30px;
+    background-color: #c5e0ec;
+    padding: 15px;
+    border-left: 5px solid #0088cc;
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+span {
+    font-weight: bold;
+}
+
+span:hover {
+    transition: 0.3s;
+    color: blue;
+    text-shadow: 0 0 5px #4a9e89, 0 0 20px #00ffc0;
+}
